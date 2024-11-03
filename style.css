@@ -1,0 +1,33 @@
+.card-section {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    gap: 20px;
+}
+.card-section h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+    color:orangered;
+  }
+  .card-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+  }
+  .card {
+    background-color:cadetblue;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+  }
+  .card-image {
+    width: 100%;
+  }
+  .card p {
+    margin-top: 20px;
+    font-size: 35px;
+    color: white;
+  }
+  
